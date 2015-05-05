@@ -1,0 +1,1031 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import "reset.css";
+@import "grid.css";
+
+body {
+    background: url(body.gif) center top repeat #373737;
+    font: 14px/20px Arial, Helvetica, sans-serif;
+    color: #8c8c8c;
+    position: relative;
+    min-width: 1172px;
+}
+
+#privacy {
+    line-height: 18px;
+}
+
+#privacy p {
+    padding-bottom: 18px;
+}
+
+.body_light {
+    background: url(light.png) center top no-repeat;
+    padding: 15px 0 60px;
+}
+
+html, body {
+    height: 100%;
+}
+
+p, .p {
+    padding-bottom: 10px;
+}
+
+.p0 {
+    padding-bottom: 0 !important;
+}
+
+.p1 {
+    padding-bottom: 15px;
+}
+
+.p2 {
+    padding-bottom: 10px;
+}
+
+a {
+    color: #8c8c8c;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+/*  Header styles */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+    color: #232323;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: #6d6d6d;
+}
+
+h6 a {
+    color: #232323;
+}
+
+h6 a:hover {
+    color: #78bccf;
+    text-decoration: none;
+}
+
+/* Global Structure---------------------------------------- */
+#login-dropdown-list{
+    margin-top: 7px;
+    box-sizing: border-box;
+    height:73px;
+    line-height: 73px;
+}
+#login-dropdown-list .dropdown-menu{
+    top:60px;
+}
+#signup-link{
+    line-height: normal;
+}
+.main {
+    width: 1172px;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.main2 {
+    width: 950px;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrapper {
+    padding-top:0;
+    width: 100%;
+}
+
+.container_24{
+    padding-top:15px;
+}
+
+.right-sidebar{
+    padding:20px 50px 0 0;
+    float:right;
+    width:300px;
+}
+
+.latestNewsBlock{
+    position: relative;
+    display: inline;
+    float: left;
+
+    padding-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container_24 .latestNewsBlock {
+    width: 270px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.right-sidebar h3{
+    padding-bottom: 10px;
+}
+
+.right-sidebar article{
+    padding-bottom: 20px;
+}
+
+.recentPostsBlock{
+    position: relative;
+    display: inline;
+    float: left;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 8px;
+}
+
+.container_24 .recentPostsBlock {
+    width: 230px;
+    padding-left: 40px;
+}
+
+.add_a_post input, .add_a_post textarea{
+    position: absolute;
+    left: 200px;
+    width:250px;
+    box-sizing: border-box;
+}
+.add_a_post textarea{
+   height: 50px;
+}
+.add_a_post input.btn{
+    position: static;
+    left:0;
+    width:150px;
+}
+
+form .field{
+    padding: 20px 0;
+    position: relative;
+}
+
+
+/*----- txt,links,lines,titles -----*/
+.extra-wrap {
+    overflow: hidden;
+    display: block;
+}
+
+.fleft {
+    float: left
+}
+
+.fright {
+    float: right
+}
+
+.alignright {
+    text-align: right
+}
+
+.aligncenter {
+    text-align: center
+}
+
+.alignmiddle * {
+    vertical-align: middle
+}
+
+.d-in-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.reg {
+    text-transform: uppercase;
+}
+
+.rel {
+    position: relative;
+}
+
+.color1 {
+    color: #ff2100;
+}
+
+.color2 {
+    color: #a8a8a8;
+}
+
+.color3 {
+    color: #303030;
+}
+
+.color4 {
+    color: #78bccf;
+}
+
+/*********************************header*************************************/
+header {
+    position: relative;
+    z-index: 9;
+    padding: 13px 79px 13px 47px;
+    background: url(header.gif) left bottom repeat-x;
+}
+
+/********************** Content ************************/
+section#content {
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+}
+
+#page1 section#content {
+    padding: 0 0 50px;
+}
+
+.post{
+    padding: 20px 400px 20px 113px;
+    min-height: 50vh;
+}
+.post .title{
+    padding: 0px 0px 15px 0px;
+}
+.post .title h1{
+    padding-bottom:0px;
+    margin-left:-3px;
+
+}
+.post .title .info{
+    padding:0px;
+}
+/******************** Footer ******************/
+footer {
+    max-height: 100px;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #acacac;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    background: url(border.gif) left top repeat-x;
+    padding: 48px 0 40px;
+}
+
+footer a {
+    color: #acacac;
+}
+
+footer a:hover {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+/*********************************boxes**********************************/
+.indent {
+    padding: 100px 720px 0 113px;
+}
+
+.indent-left {
+    padding-left: 0;
+}
+
+.indent-bottom {
+    padding-bottom: 0;
+}
+
+.indent-right {
+    padding-right: 0;
+}
+
+.indent-top {
+    padding-top: 5px;
+}
+
+.indent-top1 {
+    padding-top: 8px;
+}
+
+.margin-top {
+    margin-top: 0;
+}
+
+.margin-bot {
+    margin-bottom: 27px;
+}
+
+.margin-bot1 {
+    margin-bottom: 45px;
+}
+
+.margin-left {
+    margin-left: 0;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.img-indent {
+    float: left;
+    margin: 5px 20px 0px 0px;
+}
+
+.lightbox-image2 {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 99;
+}
+
+.lightbox-image2 img {
+    position: relative;
+    z-index: 2;
+    background: #f1f1f1;
+}
+
+.lightbox-image2 span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/magnifying-glass.png) no-repeat 50% 50%;
+    z-index: 1;
+}
+
+/*********************************header*************************************/
+.title-wrapper{
+}
+
+.logo {
+    padding: 0;
+    float: left;
+}
+
+.logo a {
+    display: block;
+    background: url('logo-4.png') 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 88px;
+    text-indent: -9999px;
+}
+.login{
+    display: block;
+    float:right;
+}
+
+.login .dropdown-toggle {
+    display: inline-block;
+    vertical-align: middle;
+}
+.slogan {
+    display: block;
+    vertical-align: middle;
+    text-align:center;
+    letter-spacing: 1px;
+    margin-right: 25px;
+    color: #c2c2c2;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    padding-top:3px;
+    line-height: 85px;
+    text-shadow: 0 0 rgba(0, 0, 0, .3);
+}
+
+/***** menu *****/
+nav {
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding: 0;
+    position: relative;
+    z-index: 20;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu > li:first-child {
+    background: none;
+}
+
+.menu > li:first-child a {
+    padding-left: 0;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    background: url(menu.png) left top repeat-y;
+}
+
+.menu li a {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #c3c3c3;
+    z-index: 20;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 3px 25px 3px 24px;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+}
+
+.menu li a.active,
+.menu > li > a:hover{
+    color: #1d1d1d;
+}
+
+.menu ul:before{
+    content:'';
+    min-height:15px;
+    display: block;
+    background-color: transparent;
+}
+
+.menu ul {
+    z-index: 20;
+    position: absolute;
+    display:none;
+}
+
+.menu ul li {
+    width: 100%;
+    background: #629cac;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+}
+
+.menu li:hover {
+    visibility: inherit;
+    transition: all 0.4s ease;
+}
+
+.menu li li {
+    margin: 0;
+    padding: 0 13px 0 14px;
+    border: none;
+    border-top: 1px solid #fff;
+}
+
+.menu li li:first-child {
+    border: none;
+}
+
+.menu li li a {
+    display: block;
+    padding: 8px 0 7px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.menu li li > a:hover {
+    color: #1d1d1d;
+}
+
+
+.menu li:hover ul {
+    left: 0px;
+    top: 29px;
+    z-index: 999;
+    display: block;
+}
+/*********************************bg's*************************************/
+.box-1 {
+    height: 400px;
+    background: url(box-1.jpg) left top no-repeat;
+    background-size: 1200px;
+    position: relative;
+}
+
+.box-1:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    background: url(../images/header.gif) left bottom repeat-x;
+    height: 6px;
+    content: "";
+}
+
+.pager_wrap {
+    overflow: hidden;
+    padding: 20px 122px 0px 113px;
+    position: relative;
+    margin-bottom: 0;
+    background-color: #d3dee0;
+}
+
+.page1 > div {
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    min-height: 100px;
+    vertical-align: middle;
+}
+
+.page1 > div a, .page1 > div span {
+    color: #000;
+    display: inline-block;
+}
+
+.page1 > div a:hover {
+    text-decoration: none;
+    color: #5892a3;
+}
+.page1 .author{
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.page1 + .nav {
+    position: absolute;
+    right: 122px;
+    bottom: 29px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.page1 + .nav a:first-child {
+    margin-left: 0;
+}
+
+.page1 + .nav a {
+    text-indent: -999em;
+    float: left;
+    margin-left: 2px;
+    display: block;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    background: url(../images/page_nav.png) right top no-repeat;
+}
+
+.page1 + .nav a:hover,
+.page1 + .nav a.activeSlide {
+    background-position: left top;
+}
+
+.page1 + .nav a.activeSlide {
+    cursor: default;
+}
+
+#toTop {
+    display: none;
+    position: fixed;
+    right: 50%;
+    bottom: 200px;
+    overflow: hidden;
+    width: 54px;
+    height: 30px;
+    border: none;
+    z-index: 20;
+    background: url(../images/totop.png) no-repeat left top;
+}
+
+#toTop:hover {
+    background-position: left bottom;
+}
+
+.quotes {
+    font-size: 14px;
+    line-height: 20px;
+    background: none;
+    padding: 0 0 10px;
+    display: block;
+    font-style: italic;
+    color: #303030;
+}
+
+.time {
+    display: block;
+    color: #77bcce;
+    padding-bottom: 12px;
+}
+
+/*********************************buttons*************************************/
+.button-1 {
+    display: inline-block;
+    background: #5892a3;
+    color: #fff;
+    font-size: 19px;
+    line-height: 23px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 6px 17px;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.button-1:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #5892a3;
+}
+
+.button-2 {
+    display: inline-block;
+    background: #1d1d1d;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.button-2:hover {
+    text-decoration: none;
+    background: #5892a3;
+    color: #fff;
+}
+
+.link-1 {
+    display: inline-block;
+    color: #78bccf;
+}
+
+/*********************************lists*************************************/
+.dl-1 dd {
+    overflow: hidden;
+}
+
+.dl-1 dd span {
+    display: block;
+    float: left;
+    width: 80px;
+}
+
+.soc_list {
+    float: right;
+
+}
+
+.soc_list li:first-child {
+    margin-left: 0;
+}
+
+.soc_list li {
+    float: left;
+    margin-left: 4px;
+}
+
+.soc_list li a {
+    display: block;
+    width: 31px;
+    height: 31px;
+    background-size: cover;
+}
+
+.soc_list .vk{
+    background-image: url(vkontakte.png);
+}
+.soc_list .fb{
+    background-image: url(facebook.png);
+}
+.soc_list .tw{
+    background-image: url(twitter.png);
+}
+
+.list-1 li {
+    padding: 4px 0 3px 0;
+}
+
+.list-1 li a {
+    color: #909396;
+    text-decoration: underline;
+}
+
+.list-1 li a:hover {
+    text-decoration: none;
+}
+
+/*********************************fonts*************************************/
+.title-1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 1.2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.title-1 span {
+    color: #858585;
+}
+
+.box-1 .title-1 {
+    margin: 0 0 15px -12px;
+}
+
+.title-2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #272727;
+    /*text-transform: uppercase;*/
+    text-shadow: 0 0 rgba(0, 0, 0, .1);
+}
+.title-2 p {
+    padding-bottom:10px;
+}
+
+.font-1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+}
+
+.size-1 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/******* form's ********/
+
+/***** contact form *****/
+#message_form fieldset {
+    border: none;
+    padding: 0;
+}
+
+#message_form label {
+    display: block;
+    min-height: 49px;
+    position: relative;
+}
+
+#message_form label.message {
+    height: 220px;
+}
+
+#message_form label input {
+    background: #fff;
+    border: 1px solid #ececec;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 15px;
+    font-weight: normal;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 6px 15px 7px;
+    vertical-align: middle;
+    width: 188px;
+}
+
+#message_form .area .error {
+    float: none;
+}
+
+#message_form textarea {
+    background: #fff;
+    border: 1px solid #ececec;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    outline: medium none;
+    overflow: auto;
+    padding: 6px 15px;
+    vertical-align: middle;
+    width: 437px;
+    height: 208px;
+    resize: none;
+}
+
+#message_form a {
+    cursor: pointer;
+}
+
+#message_form .success {
+    display: none;
+    margin-bottom: 10px;
+    background: none;
+    box-shadow: none;
+    color: #000;
+}
+
+#message_form .error,
+#message_form .empty {
+    color: #f00;
+    font-size: 11px;
+    line-height: 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.buttons-wrapper {
+    text-align: right;
+    padding-top: 30px;
+    position: relative;;
+}
+
+.buttons-wrapper a {
+    margin-left: 10px;
+}
+
+.ui-datepicker {
+    width: 182px;
+    padding: 0 0 0 0;
+    display: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: $ 414141;
+    border: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: 0 0 13px;
+    background: none;
+    color: #7a6c69;
+    font-size: 14px;
+    line-height: 1.2em;
+    border: none;
+    font-weight: 400;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: url(../images/datepicker_arrows.png) left top no-repeat;
+    border: none;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 20px;
+    background-position: left bottom;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 24px;
+    background-position: right bottom;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+    background-position: left top;
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+    background-position: right top;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 1em;
+    margin: 1px 0;
+}
+
+.ui-datepicker select.ui-datepicker-month-year {
+    width: 100%;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    width: 49%;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: 11px;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.ui-datepicker table thead {
+    border-left: 1px solid #dddbd8;
+}
+
+.ui-datepicker th {
+    padding: 2px 0 1px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    background: #ecebe9;
+    border-right: 1px solid #dddbd8;
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 0;
+    border: 1px solid #edecea;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    border: none !important;
+    background: none !important;
+    color: #414141 !important;
+    line-height: 23px;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+    background-image: none;
+    margin: .7em 0 0 0;
+    padding: 0 .2em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+    float: right;
+    margin: .5em .2em .4em;
+    cursor: pointer;
+    padding: .2em .6em .3em .6em;
+    width: auto;
+    overflow: visible;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    float: left;
+}
+
+.ui-datepicker .ui-state-default.ui-state-active, .ui-datepicker .ui-datepicker-today a, .ui-datepicker .ui-state-default.ui-state-hover {
+    background: url(../images/datepicker_hover.png) 2px 3px no-repeat !important;
+}

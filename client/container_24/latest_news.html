@@ -1,0 +1,10 @@
+<template name='latestNews'>
+    <article class="latestNewsBlock">
+        <h3>latest <span>News</span></h3>
+        {{#with lastPost}}
+            <h6>{{title}}</h6>
+            <p>{{cut}}</p>
+            <a href="{{pathFor 'postPage'}}" class="button-2">read more</a>
+        {{/with}}
+    </article>
+</template>

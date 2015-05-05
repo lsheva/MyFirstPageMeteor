@@ -1,0 +1,19 @@
+731 error Error: ENOENT, lstat '/home/lsheva/tmp/npm-13196-dbqzUR3W/1426716573623-0.4923771722242236/package/README.md'
+732 error If you need help, you may report this log at:
+732 error     <http://github.com/isaacs/npm/issues>
+732 error or email it to:
+732 error     <npm-@googlegroups.com>
+733 error System Linux 3.16.0-31-generic
+734 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "meteor-em"
+735 error cwd /home/lsheva/WebstormProjects/MyPersonalPage
+736 error node -v v0.10.25
+737 error npm -v 1.3.10
+738 error path /home/lsheva/tmp/npm-13196-dbqzUR3W/1426716573623-0.4923771722242236/package/README.md
+739 error fstream_path /home/lsheva/tmp/npm-13196-dbqzUR3W/1426716573623-0.4923771722242236/package/README.md
+740 error fstream_type File
+741 error fstream_class FileWriter
+742 error code ENOENT
+743 error errno 34
+744 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:284:26
+744 error fstream_stack Object.oncomplete (fs.js:107:15)
+745 verbose exit [ 34, true ]

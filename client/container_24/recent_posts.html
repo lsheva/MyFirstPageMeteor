@@ -1,0 +1,10 @@
+<template name="recentPosts">
+    <article class="grid_6 prefix_1 indent-top1">
+        <h3>Other <span>Posts</span></h3>
+        {{#each recentPosts 5}}
+            <ul class="list-1">
+                <li><a href="{{pathFor 'postPage'}}">{{title}}</a></li>
+            </ul>
+        {{/each}}
+    </article>
+</template>

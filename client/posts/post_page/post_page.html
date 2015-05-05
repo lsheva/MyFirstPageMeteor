@@ -1,0 +1,16 @@
+<template name="postPage">
+    <aside class="right-sidebar">
+        {{> latestNews}}
+        {{> recentPosts}}
+    </aside>
+
+    <article class="post clearfix">
+        <div class="title">
+            <h1>{{title}}</h1>
+            <h6 class="info">{{author}} - {{dateFormat}}</h6>
+        </div>
+        <div class="content">
+            {{text}}
+        </div>
+    </article>
+</template>

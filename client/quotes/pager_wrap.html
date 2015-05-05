@@ -1,0 +1,11 @@
+<template name="pager_wrap">
+    <div class="pager_wrap">
+        <div class="page1">
+            <div style="opacity: {{currentOpacity}}">
+                {{#with quotes currentQuoteNumber}}
+                    <span><a href="#">{{highlight}}</a></span> {{continuation}} <span class="author">{{author}}</span>
+                {{/with}}
+            </div>
+        </div>
+    </div>
+</template>

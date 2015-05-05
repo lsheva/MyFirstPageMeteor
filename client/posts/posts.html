@@ -1,0 +1,10 @@
+<template name="posts">
+    <article class="post clearfix">
+        <h1>Posts</h1>
+        {{#each Posts}}
+            <ul class="list-1">
+                <li><a href="{{pathFor 'postPage'}}">{{title}}</a></li>
+            </ul>
+        {{/each}}
+    </article>
+</template>

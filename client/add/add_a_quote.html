@@ -1,0 +1,28 @@
+<template name="add_a_quote">
+    <aside class="right-sidebar">
+        {{> latestNews}}
+        {{> recentPosts}}
+    </aside>
+
+    <article class="add-a-quote post clearfix">
+        <h1>Add a quote</h1>
+        Every quote on the mainpage slider is divided into two parts: the first one highlighted and the second one
+        <form class="form" id="myform">
+            <div class="field">
+                <label class="control-label" for="highlight">Highlight</label>
+                <input name="highlight" id="highlight" type="text" value="" placeholder="First part of your quote" class="form-control"/>
+            </div>
+            <div class="field">
+                <label class="control-label" for="continuation">Continuation</label>
+                <input name="continuation" id="continuation" type="text" value=""
+                       placeholder="Second part of your quote" class="form-control"/>
+            </div>
+            <div class="field">
+                <label class="control-label" for="author">Author</label>
+                <input name="author" id="author" type="text" value=""
+                       placeholder="Write here an author\'s name" class="form-control"/>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary"/>
+        </form>
+    </article>
+</template>

@@ -1,0 +1,24 @@
+<template name="nav">
+    <nav>
+        <ul class="menu">
+            <li><a class="{{activeIfTemplateIs 'homepage'}}" href="{{pathFor 'homepage'}}">Main Page</a></li>
+            <li><a class="{{activeIfTemplateIs 'bio'}}" href="{{pathFor 'bio'}}">Biography</a></li>
+            <li><a class="{{activeIfTemplateIs 'portfolio'}}" href="{{pathFor 'portfolio'}}">Portfolio</a></li>
+            <li><a class="{{activeIfTemplateIs 'postPage' 'posts'}}" href="{{pathFor 'posts'}}">Posts</a>
+                <ul>
+                    {{#each Posts 5}}
+                        <li><a href="{{pathFor 'postPage'}}">{{title}}</a></li>
+                    {{/each}}
+                    <li><a class="{{activeIfTemplateIs 'postPage' 'posts'}}" href="{{pathFor 'posts'}}">More...</a></li>
+                </ul>
+            </li>
+            <li><a class="{{activeIfTemplateIs 'add'}}" href="#">+ Add</a>
+                <ul>
+                    <li><a class="{{activeIfTemplateIs 'add_a_post'}}" href="{{pathFor 'add_a_post'}}">Post</a></li>
+                    <li><a class="{{activeIfTemplateIs 'add_a_quote'}}" href="{{pathFor 'add_a_quote'}}">Quote</a></li>
+                </ul>
+            </li>
+            <li><a class="{{activeIfTemplateIs 'contacts'}}" href="{{pathFor 'contacts'}}">Contacts</a></li>
+        </ul>
+    </nav>
+</template>

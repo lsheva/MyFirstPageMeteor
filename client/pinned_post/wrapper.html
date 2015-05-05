@@ -1,0 +1,13 @@
+<template name="wrapper">
+    <div class="wrapper">
+        <div class="box-1">
+            <div class="indent">
+                <div class="title-1">Web<span>developing</span></div>
+                <div class="font-1 size-1 color2 margin-bot">When I first learned about the Meteor, I saw someone write, <strong>“Meteor is to Node.js as Rails is to Ruby”</strong>, and I think that’s a good comparison. A few years ago, Rails was the hot new...</div>
+                {{#with pinnedPost}}
+                    <a href="{{pathFor 'postPage'}}" class="button-1">read more</a>
+                {{/with}}
+            </div>
+        </div>
+    </div>
+</template>
